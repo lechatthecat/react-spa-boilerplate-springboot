@@ -1,2 +1,29 @@
 # react-spa-boilerplate-springboot
 This is a boilerplate for SPA with react and springboot.
+
+# Usage
+
+Prepare the following:
+
+- VScode
+- java that is later than v11
+- Node.js and mpm
+- nvm
+
+Then run the following:
+
+```
+$ cd ./react-spa-boilerplate-springboot
+$ nvm use 12
+$ npm i
+$ npm run build:development
+```
+
+Then js/css files are ready. Press on F5 on vscode editor.
+
+You will see the SPA is working with Spring boot.
+
+# Credit
+Some of the js contained in this repository was created referring to this i28minutes project: 
+
+https://github.com/in28minutes/spring-boot-react-fullstack-examples/tree/master/spring-boot-react-hello-world-with-routing
