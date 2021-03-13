@@ -21,7 +21,8 @@ $ npm run build:development
 
 Then js/css files are ready. Press on F5 on vscode editor.
 
-You will see the SPA is working with Spring boot.
+You will see the SPA is working with Spring boot on http://localhost:8080
+<img src="https://raw.githubusercontent.com/lechatthecat/react-spa-boilerplate-springboot/main/Screenshot.png">
 
 # Credit
 Some of the js contained in this repository was created referring to this i28minutes project: 
