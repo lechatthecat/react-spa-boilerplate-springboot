@@ -1,15 +1,13 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = ({ outputFile, assetFile, envFilePath, assetPath }) => {
   return {
-    entry: {
-      // Everytime html file is added, you have to add the path here.
-      // html page name: the js file name that will be parent of the html page.
-      'index': path.resolve(__dirname, '../src/main/resources/pages/index.js'),
-    },
+    entry: [
+      path.resolve(__dirname, '../src/main/resources/pages/index.js'),
+      path.resolve(__dirname, '../src/main/resources/pages/index.scss'),
+    ],
     output: {
       path: path.resolve(__dirname, '../src/main/resources/static/public'),
       filename: 'js/[name].js',
