@@ -7,7 +7,7 @@ Prepare the following:
 
 - VScode
 - java that is later than v11
-- Node.js and mpm
+- Node.js and npm
 - nvm
 
 Then run the following:
