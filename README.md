@@ -25,6 +25,6 @@ You will see the SPA is working with Spring boot on http://localhost:8080
 <img src="https://raw.githubusercontent.com/lechatthecat/react-spa-boilerplate-springboot/main/Screenshot.png">
 
 # Credit
-Some of the js contained in this repository was created referring to this i28minutes project: 
+Some of the js contained in this repository was created referring to this in28minutes project: 
 
 https://github.com/in28minutes/spring-boot-react-fullstack-examples/tree/master/spring-boot-react-hello-world-with-routing
