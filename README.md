@@ -16,7 +16,8 @@ Then run the following:
 $ cd ./react-spa-boilerplate-springboot
 $ nvm use 12
 $ npm i
-$ npm run build:development
+$ npm run build
+or $ npm run watch
 ```
 
 Then js/css files are ready. Press on F5 on vscode editor.
